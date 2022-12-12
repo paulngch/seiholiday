@@ -6,3 +6,5 @@ const PORT = 3000;
 router.listen(PORT, () => {
   console.log("🎉🎊", "celebrations happening on port", PORT, "🎉🎊");
 });
+
+module.exports = holidays;
