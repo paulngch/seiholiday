@@ -24,9 +24,8 @@ const holidaysController = require("./controllers/holidays.js");
 app.use("/holidays", holidaysController);
 
 app.get("/", (req, res) => {
-  repwds.json({ msg: "Hello World!" });
+  res.json({ msg: "Hello World!" });
 });
-
 
 app.listen(PORT, () => {
   console.log("celebrations happening on port", PORT);
