@@ -8,7 +8,7 @@ const mongoose = require("mongoose");
 
 app.use(express.json());
 app.use(morgan("dev"));
-app.use(express.static("public"));
+app.use(express.static("../client/dist"));
 // app.use(cookieParser());
 // app.set("trust proxy", 1);
 // app.use(
