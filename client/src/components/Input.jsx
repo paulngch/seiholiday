@@ -1,3 +1,10 @@
+import Navbar from "./Navbar";
+
 export default function Input() {
-  return <h1>This is NAVBAR page</h1>;
+  return (
+    <>
+      <Navbar />
+      <h1>This is the INPUT page</h1>
+    </>
+  );
 }
