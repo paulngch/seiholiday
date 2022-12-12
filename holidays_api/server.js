@@ -20,8 +20,11 @@ app.use(express.static("public"));
 //   })
 // );
 
+const holidaysController = require("./controllers/holidays.js");
+app.use("/holidays", holidaysController);
+
 app.get("/", (req, res) => {
-  res.json({ msg: "Hello World!" });
+  repwds.json({ msg: "Hello World!" });
 });
 
 
