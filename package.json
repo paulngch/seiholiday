@@ -7,7 +7,7 @@
   },
   "workspaces": [
     "holidays_api",
-    "controllers"
+    "client"
   ],
   "repository": {
     "type": "git",
