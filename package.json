@@ -6,7 +6,7 @@
     "start": "cd holidays_api && npm run start"
   },
   "workspaces": [
-    "client",
+    "holidays",
     "server"
   ],
   "repository": {
