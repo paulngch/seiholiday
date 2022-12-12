@@ -6,8 +6,8 @@
     "start": "cd holidays_api && npm run start"
   },
   "workspaces": [
-    "holidays",
-    "server"
+    "holidays_api",
+    "controllers"
   ],
   "repository": {
     "type": "git",
